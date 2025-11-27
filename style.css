@@ -40,4 +40,14 @@ body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica
   .hero-left, .hero-right{width:100%}
   .profile-photo{margin:0 auto}
   .site-header .container{flex-direction:column;gap:8px}
+
+}
+.profile-photo {
+    width: 150px;       /* Adjust size */
+    height: 150px;      /* Adjust size */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover;  /* Keeps proportions */
+    display: block;
+    margin: 0 auto;     /* Center the image */
+    border: 3px solid #0a84ff; /* Optional border */
 }
